@@ -2,7 +2,7 @@
 	rebase = true
 [user]
 	name = Robbe De Proft
-	email = 34212934+RobbeDP@users.noreply.github.com
+	email = robbe.deproft@ordina.be
 [core]
 	editor = nvim
 	excludesfile = ~/.gitignore_global
