@@ -7,3 +7,6 @@ right_format = '$cmd_duration $time'
 [git_branch]
 style = 'bold purple'
 format = '[$branch(:$remote_branch)]($style) '
+
+[terraform]
+format = 'via [$symbol$workspace]($style) '
