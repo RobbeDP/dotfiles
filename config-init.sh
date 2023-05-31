@@ -12,7 +12,7 @@ function config {
 mkdir -p .dotfiles-backup
 config checkout
 if [ $? = 0 ]; then
-  echo "Checked out fotiles from git@github.com:RobbeDP/dotfiles.git"
+  echo "Checked out dotfiles from git@github.com:RobbeDP/dotfiles.git"
 else
   echo "Moving existing dotfiles to ~/.dotfiles-backup"
   config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | while read line; do
