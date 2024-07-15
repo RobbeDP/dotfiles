@@ -2,7 +2,10 @@
 	rebase = true
 [user]
 	name = Robbe De Proft
-	email = robbe.deproft@ordina.be
+	email = 34212934+RobbeDP@users.noreply.github.com
 [core]
 	editor = nvim
 	excludesfile = ~/.gitignore_global
+
+[includeIf "gitdir:~/GLPG/"]
+	path = ~/GLPG/.gitconfig
